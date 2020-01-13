@@ -1,7 +1,7 @@
 let obj = JSON.parse($response.body);
 let url = $request.url;
-const cons1 = "api.memrise.com/v1.16/me/";
-const cons2 = "api.memrise.com/v1.16/dashboard/";
+const cons1 = "api.memrise.com/v1.15/me/";
+const cons2 = "api.memrise.com/v1.15/dashboard/";
 const cons3 = "leaderboards/following/";
 
 if(url.indexOf(cons1) != -1) {
